@@ -77,7 +77,7 @@ def remove():
 def update():
    global liq_after_ten
    
-   #conn_str = "mongodb+srv://srreddy:<reddy123>@reddyliquor.a77bf.mongodb.net/LiquorTransactions?retryWrites=true&w=majority"
+   #conn_str = "mongodb+srv://@reddyliquor.a77bf.mongodb.net/LiquorTransactions?retryWrites=true&w=majority"
  
    #client = pymongo.MongoClient(conn_str, serverSelectionTimeoutMS=5000)
    try:
